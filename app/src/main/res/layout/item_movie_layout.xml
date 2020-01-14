@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+android:background="#ffff">
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/name"
+            android:text="Name"
+            android:textColor="@color/colorAccent"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/real_name"
+            android:text="Real Name"
+            android:layout_below="@id/name"
+            android:textColor="@color/colorAccent"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/firstappearance"
+            android:text="First Appearance"
+            android:layout_below="@id/real_name"
+            android:textColor="@color/colorAccent"/>
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/createdby"
+            android:text="createdby"
+            android:layout_below="@id/firstappearance"
+            android:textColor="@color/colorAccent"/>
+
+
+</RelativeLayout>
